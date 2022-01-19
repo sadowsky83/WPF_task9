@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="windowTheme">
+        <Setter Property="Control.Background" Value="#FF272437"/>
+        <Setter Property="Control.Foreground" Value="White"/>
+    </Style>
+    <Style x:Key="textBlockTheme" BasedOn="{StaticResource windowTheme}">
+        <Setter Property="TextBlock.Foreground" Value="White"/>
+    </Style>    
+</ResourceDictionary>
