@@ -44,19 +44,19 @@ namespace WPF_task9
             Application.Current.Resources.MergedDictionaries.Add(resource);
         }
 
-        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e) // Шррифт
-        {
-            string fontName = ((sender as ComboBox).SelectedItem as string);
-            if (textBox != null)
-                textBox.FontFamily = new FontFamily(fontName);
-        }
+        //private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e) // Шррифт
+        //{
+        //    string fontName = ((sender as ComboBox).SelectedItem as string);
+        //    if (textBox != null)
+        //        textBox.FontFamily = new FontFamily(fontName);
+        //}
 
-        private void ComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e) // Размер шрифта
-        {
-            double fontSize = Convert.ToDouble(((sender as ComboBox).SelectedItem as string));
-            if (textBox != null)
-                textBox.FontSize = fontSize;
-        }
+        //private void ComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e) // Размер шрифта
+        //{
+        //    double fontSize = Convert.ToDouble(((sender as ComboBox).SelectedItem as string));
+        //    if (textBox != null)
+        //        textBox.FontSize = fontSize;
+        //}
 
         private void btnBold_Click(object sender, RoutedEventArgs e) // Жирный
         {
